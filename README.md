@@ -1,1 +1,1 @@
-# rsschool-cv
+https://Sqverick.github.io/rsschool-cv/cv
