@@ -53,3 +53,9 @@ Education:
 
 Peter the Great St.Petersburg Polytechnic University (SPbPU)  
 * Managment
+
+Languages:
+--------------------
+
+* Russian - native speaker.  
+* English - B1.
