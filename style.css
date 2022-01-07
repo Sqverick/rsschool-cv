@@ -1,0 +1,169 @@
+html {
+    scroll-behavior: smooth; 
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+     margin: 0; 
+  padding: 0;
+  width: 100vw;
+  }
+
+* {
+box-sizing: border-box;
+}
+
+.header,
+.footer {
+  background-color: #849f94;
+}
+
+.container {
+ max-width: 1440px;
+ margin: 0 auto;
+
+}
+
+/*navigation*/
+
+.nav {
+   display: flex;
+}
+
+@media (max-width: 768px) {
+.nav {
+  width: 100%;
+}
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap:wrap;
+  list-style: none;
+}
+
+.nav-link {
+      padding: 0 20px;
+      line-height: 50px;
+      text-decoration: none;
+      color: #56646C;
+}
+
+.nav-item {
+transition: all .3s ease;
+}
+
+.nav-item:hover {
+transform: scale(1.2);
+}
+
+/*main*/
+
+.main {
+background-color: #faf0e6;
+background-color: rgba(255, 165, 0, 0.3);
+  }
+
+.section-item {
+cursor: pointer;
+color: #704E54;
+text-decoration: none;  
+transition: color 0.5s;
+}
+
+.section-item:hover {
+color: #4d2323;
+}
+
+.avatar-img {
+width: 168px;
+height: 175px;
+Border-radius: 200px;
+box-shadow: 5px 5px 5px 1px rgba(132, 159, 148, 0.5);
+transition: all .3s ease;
+}
+
+.avatar-img:hover {
+transform: scale(1.2);
+}
+
+.main-container {
+display: flex;
+flex-wrap: wrap;
+min-height: 100vh;
+}
+
+.section {
+width: 50%;
+padding-right: 20px;
+line-height: 180%;
+}
+
+.section-name {
+box-shadow: none;
+font-size: 20px;
+}       
+
+@media (max-width: 768px){
+.section {
+width: 100%; }
+}  
+
+.section-profile {
+display: flex;
+justify-content:space-evenly;
+flex-wrap: wrap;
+width: 100%;
+}
+          
+.section-title{ 
+color: #4d2323;
+text-transform: uppercase;
+box-shadow: 0px 5px 0px 0px rgba(132, 159, 148, 0.5);
+}
+
+.section-img {
+display: flex;
+justify-content: center;
+padding: 10px;
+}
+
+.section-name {
+display: flex;
+justify-content: center;
+align-items: center;
+text-transform: uppercase;
+font-size:20px;
+letter-spacing: 1.5rem;
+}
+
+code {
+font-size: 16px;
+}
+
+  /*footer*/
+
+.container-footer {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.rss-img {
+width: 121px;
+height: 45px;
+background-size: contain;
+background-repeat: no-repeat;
+}
+
+.year, 
+.github-link {
+color: #56646C;
+}
+
+.github-link {
+text-decoration: none;
+text-transform: uppercase;
+}
+
